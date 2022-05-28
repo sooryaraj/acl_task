@@ -164,7 +164,6 @@ class Utils {
   static void storeMobileNumber({required String mobile_number}) {
     final box = GetStorage();
     box.write('mobile_number', mobile_number);
-    var mobile_num = box.read("mobile_number");
   }
 
   static void clearMobileNumber() {
